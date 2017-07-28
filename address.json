@@ -1,0 +1,116 @@
+[
+	{   "id":"01",
+		"clinic_name": "Eastern Street Methadone Clinic",
+		"clinic_address": "45 Eastern Street, Sai Ying Pun",
+		"clinic_tel":"2549 5108",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 3:00 pm"
+    },
+	
+	{   "id":"02",
+		"clinic_name": "Violet Peel Methadone Clinic",
+		"clinic_address": "G/F, 2 O'Brien Road, Wan Chai",
+		"clinic_tel":"2835 1761",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 10:00 pm"
+    },
+	
+	{   "id":"03",
+		"clinic_name": "Ho Man Tin Methadone Clinic",
+		"clinic_address": "50 Princess Margaret Road, Ho Man Tin",
+		"clinic_tel":"2713 6091",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 3:00 pm"
+    },
+	
+{   "id":"04",
+		"clinic_name": "Robert Black Methadone Clinic",
+		"clinic_address": "Robert Black Health Centre, 600 Prince Edward Road East, San Po Kong",
+		"clinic_tel":"2716 5211",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 10:00 pm"
+    },
+	
+	{   "id":"05",
+		"clinic_name": "Sham Shui Po Methadone Clinic",
+		"clinic_address": "Sham Shui Po Public Dispensary, 137 Yee Kuk Street, Sham Shui Po",
+		"clinic_tel":"2393 1928",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 10:00 pm"
+    },
+	
+	{   "id":"06",
+		"clinic_name": "Lady Trench Methadone Clinic",
+		"clinic_address": "Lady Trench Polyclinic, 213 Sha Tsui Road, Tsuen Wan",
+		"clinic_tel":"2942 6736",
+		"clinic_time":"Monday - Sunday (including public holidays)\n7:00 am - 10:00 pm"
+    },
+	
+	{   "id":"07",
+		"clinic_name": "Cheung Chau Methadone Clinic",
+		"clinic_address": "St. John Hospital, Cheung Chau Hospital Road, Cheung Chau",
+		"clinic_tel":"2981 5399",
+		"clinic_time":"Monday - Sunday (including public holidays)\n1:00 pm - 8:00 pm"
+    },
+	
+	{   "id":"08",
+		"clinic_name": "Aberdeen Methadone Clinic",
+		"clinic_address": "Aberdeen Jockey Club Clinic, 10 Aberdeen Reservoir Road, Aberdeen",
+		"clinic_tel":"2554 1665",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },
+
+	{   "id":"09",
+		"clinic_name": "Shau Kei Wan Methadone Clinic",
+		"clinic_address": "Shau Kei Wan Jockey Club Clinic, 8 Chai Wan Road, Shau Kei Wan",
+		"clinic_tel":"2560 0582",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"10",
+		"clinic_name": "Hung Hom Methadone Clinic",
+		"clinic_address": "Hung Hom Clinic, 22 Station Lane, Hung Hom",
+		"clinic_tel":"2333 8957",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"11",
+		"clinic_name": "Kwun Tong Methadone Clinic",
+		"clinic_address": "Kwun Tong Methadone Clinic, 463 Kwun Tong Road, Kwun Tong",
+		"clinic_tel":"2345 7103",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"12",
+		"clinic_name": "Lee Kee Methadone Clinic",
+		"clinic_address": "Lee Kee Memorial Dispensary, 99 Carpenter Road, Kowloon City",
+		"clinic_tel":"2272 9621",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"13",
+		"clinic_name": "Ngau Tau Kok Methadone Clinic",
+		"clinic_address": "Ngau Tau Kok Jockey Club Clinic, 60 Ting On Street, Ngau Tau Kok",
+		"clinic_tel":"2318 0976",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+
+	{   "id":"14",
+		"clinic_name": "Wu York Yu Methadone Clinic",
+		"clinic_address": "Wu York Yu Health Centre, 55 Sheung Fung Street, Tsz Wan Shan",
+		"clinic_tel":"2329 7306",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"15",
+		"clinic_name": "Yau Ma Tei Methadone Clinic",
+		"clinic_address": "Yau Ma Tei Jockey Club Clinic, 143 Battery Street, Yau Ma Tei",
+		"clinic_tel":"2770 2584",
+		"clinic_time":"Monday - Sunday (including public holidays)\n3:00 pm - 10:00 pm"
+    },    
+
+	{   "id":"16",
+		"clinic_name": "Sha Tin (Tai Wai) Methadone Clinic",
+		"clinic_address": "Sha Tin (Tai Wai) Clinic, 3 Man Lai Road, Tai Wai, Sha Tin",
+		"clinic_tel":"2604 5355",
+		"clinic_time":"Monday - Sunday (including public holidays)\n6:00 pm - 10:00 pm"
+}
+    
+	
+	]
