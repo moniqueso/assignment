@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Creative - Start Bootstrap Theme</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!-- Plugin CSS -->
+<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+<!-- Theme CSS -->
+<link href="css/creative.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+   $(function(){
+	   var $login = $('#login');	   
+</script>
+<link rel="stylesheet" href="css/loginreset.css">
+<!-- CSS reset -->
+<link rel="stylesheet" href="css/login.css">
+<!-- Gem style -->
+<script src="js/login/modernizr.js"></script><!-- Modernizr -->
+</head>
+
+
+
+
+
+<body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> </button>
+        <a class=" logo" href="index.html"><img src="img/logo.png" ></a> </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li><a href="details.html">Video</a></li>
+                    <li><a href="method.html">Service</a></li>
+                    <li> <a class="cd-signin" href="#signin">Login</a></li>
+                   <li> <a class="cd-signup" href="#signup">Register</a></li>
+                   <li> <a id="hellouser" ></a></li>
+                   <li><div class="weather">
+                   <!-- weather widget start --><a target="_blank" href="http://www.booked.net/weather/hong-kong-19668"><img src="https://w.bookcdn.com/weather/picture/21_19668_1_1_3658db_250_2a48ba_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=&anc_id=38952"  alt="booked.net"/></a><!-- weather widget end -->
+                   </div>
+                      </li>
+                    
+                   
+
+               <li>
+          <div class="searchbar_wrap"> 
+            <script>
+  (function() {
+    var cx = '003182383333116438681:boprfbdq0ke';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+            <gcse:search></gcse:search>
+          </div>
+        </li>
+
+                 </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+  <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+    <ul class="cd-switcher">
+      <li><a href="#0">LOGIN</a></li>
+      <li><a href="#0">SIGN UP</a></li>
+    </ul>
+    <div id="cd-login"> <!-- log in form -->
+      <form class="cd-form">
+        <p class="fieldset">
+          <label class="image-replace cd-username"  for="signin-username">Username</label>
+          <input class="full-width has-padding has-border" id="log_user" name="log_ac" type="text" placeholder="Username">
+          <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <label class="image-replace cd-password" for="signin-password">Password</label>
+          <input class="full-width has-padding has-border" id="log_pass" name="log_pw" type="text"  placeholder="Password">
+          <a href="#0" class="hide-password">Hide</a> <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <input class="full-width" id="login" type="submit" value="Login">
+        </p>
+      </form>
+      <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+      <!-- <a href="#0" class="cd-close-form">Close</a> --> 
+    </div>
+    <!-- cd-login -->
+    
+    <div id="cd-signup"> <!-- sign up form -->
+      <form class="cd-form">
+        <p class="fieldset">
+          <label class="image-replace cd-username" for="signup-username">Username</label>
+          <input class="full-width has-padding has-border" id="user" name="ac" type="text" placeholder="Username">
+          <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <label class="image-replace cd-email" for="signup-email">E-mail</label>
+          <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="E-mail">
+          <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <label class="image-replace cd-password" for="signup-password">Password</label>
+          <input class="full-width has-padding has-border" id="pass" name="pw" type="text"  placeholder="Password">
+          <a href="#0" class="hide-password">Hide</a> <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <label class="image-replace cd-password" for="signup-repassword">Re-Enter Password</label>
+          <input class="full-width has-padding has-border" id="re_pass" name="re_pw" type="text"  placeholder="Re-Enter Password">
+          <a href="#0" class="hide-password">Hide</a> <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <input class="full-width has-padding" id="sign_up" type="submit" value="Sign Up">
+        </p>
+      </form>
+      
+      <!-- <a href="#0" class="cd-close-form">Close</a> --> 
+    </div>
+    <!-- cd-signup -->
+    
+    <div id="cd-reset-password"> <!-- reset password form -->
+      <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+      <form class="cd-form">
+        <p class="fieldset">
+          <label class="image-replace cd-email" for="reset-email">E-mail</label>
+          <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+          <span class="cd-error-message">Error message here!</span> </p>
+        <p class="fieldset">
+          <input class="full-width has-padding" type="submit" value="Reset password">
+        </p>
+      </form>
+      <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+    </div>
+    <!-- cd-reset-password --> 
+    <a href="#0" class="cd-close-form">Close</a> </div>
+  <!-- cd-user-modal-container --> 
+</div>
+<!-- cd-user-modal --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/login/main.js"></script> <!-- Gem jQuery -->
+
+<div class="method">
+  <section class="map_wrap">
+    <div class="container">
+      <div class="mapbg row">
+   <div class="mapshow">
+   <button onclick="goBack()" class="btnblack">< Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+   <h4>Sham Shui Po Methadone Clinic</h4>
+      <div id="map"></div>
+   </div>
+    <script>
+      function initMap() {
+        var uluru = {lat:22.326756, lng: 114.161616};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP13owTe-bGp1QavKsQPHNQEj-uxoXgQQ&callback=initMap">
+    </script>
+
+    </div>
+     </div>
+  </section>
+</div>
+
+<!-- jQuery --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script> 
+
+<!-- Plugin JavaScript --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+
+<!-- Theme JavaScript --> 
+<script src="js/creative.min.js"></script> 
+<script>
+(function() {
+  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  $.getJSON( flickerAPI, {
+    tags: "mount rainier",
+    tagmode: "any",
+    format: "json"
+  })
+    .done(function( data ) {
+      $.each( data.items, function( i, item ) {
+        $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+        if ( i === 3 ) {
+          return false;
+        }
+      });
+    });
+})();
+</script> 
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP13owTe-bGp1QavKsQPHNQEj-uxoXgQQ&callback=initMap">
+    </script>
+</body>
+<script>
+
+   
+	$(function() {
+		$("#login").click(function(e){
+			$(function(){
+				var user = {};
+				user.act = "login";
+				user.ac = $("input[name='log_ac']").val();
+				user.pw = $("input[name='log_pw']").val();
+			//	alert(user.ac);
+				$.ajax({
+					url: "http://ms-skyso1127383479.codeanyapp.com:5001/index.html",
+					type: "POST",
+					data: user,
+					success: function (result) {
+						alert(result);
+                 $(".cd-signin").hide();
+            $(".cd-signup").hide();
+          $("#hellouser").html("<a href='favlist.html'><span style='color:#2v2v2v'>Hello, "+user.ac+"</span></a>" );
+       			 console.log(result);
+        		if(result.status == 200){
+            		console.log("hope can see here");
+        			}
+    			},
+    			error: function(result){
+        			console.log(result);
+    				}
+				});
+				return false;
+			});
+		});
+	
+		$("#sign_up").click(function(e){
+			var user = {};
+			user.act = "signup";
+			user.ac = $("input[name='ac']").val();
+			user.pw = $("input[name='pw']").val();
+			user.email = $("input[name='email']").val();
+			if(user.ac == ""||user.pw == ""||$("input[name='re_pw']").val()==""||user.email==""){
+				alert("Please input all infomration!");
+			}else if ($("input[name='re_pw']").val() != user.pw){
+				alert("Please input same password at repeat password!");
+			}else {
+				$.ajax( {
+					url: "http://ms-skyso1127383479.codeanyapp.com:5001/index.html",
+					type: "POST",
+					data: user,
+					datatype: "json",
+					success: function (result) {
+						alert(result);
+       			 console.log(result);
+        		if(result.status == 200){
+            		console.log("hope can see here");
+        			}
+    			},
+    			error: function(result){
+        			console.log(result);
+    				}
+				});
+			}
+			return false;
+		});
+	});
+</script>
+</html>

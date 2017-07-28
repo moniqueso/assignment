@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+ <title>DRUGS CARE - No drug abuse</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+<!-- Theme CSS -->
+<link href="css/creative.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/loginreset.css">
+<!-- CSS reset -->
+<link rel="stylesheet" href="css/login.css">
+<script src="js/login/modernizr.js"></script>
+
+
+  <script src="js/fav.js"></script>
+</head>
+
+
+
+
+
+<body>
+<!-- Top start-->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> </button>
+        <a class=" logo" href="index.html"><img src="img/logo.png" ></a> </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li><a href="details.html">Video</a></li>
+                    <li><a href="method.html">Service</a></li>
+                    <li> <a class="cd-signin" href="#signin">Login</a></li>
+                   <li> <a class="cd-signup" href="#signup">Register</a></li>
+                   <li> <a id="hellouser" ></a></li>
+                   <li><div class="weather">
+                   <!-- weather widget start --><a target="_blank" href="http://www.booked.net/weather/hong-kong-19668"><img src="https://w.bookcdn.com/weather/picture/21_19668_1_1_3658db_250_2a48ba_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=&anc_id=38952"  alt="booked.net"/></a><!-- weather widget end -->
+                   </div>
+                      </li>
+                    
+                   
+
+               <li>
+          <div class="searchbar_wrap"> 
+            <script>
+  (function() {
+    var cx = '003182383333116438681:boprfbdq0ke';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+            <gcse:search></gcse:search>
+          </div>
+        </li>
+
+                 </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+<!--*****PopUp Login Start*****-->
+<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+  <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+    <ul class="cd-switcher">
+      <li><a href="#0">LOGIN</a></li>
+      <li><a href="#0">SIGN UP</a></li>
+    </ul>
+    
+  <!-- log in form -->
+    <div id="cd-login"> 
+      <form class="cd-form">
+        <p class="fieldset">
+          <label class="image-replace cd-username"  for="signin-username">Username</label>
+          <input class="full-width has-padding has-border" id="log_user" name="log_ac" type="text" placeholder="Username">
+        </p>
+        <p class="fieldset">
+          <label class="image-replace cd-password" for="signin-password">Password</label>
+          <input class="full-width has-padding has-border" id="log_pass" name="log_pw" type="text"  placeholder="Password">
+          <a href="#0" class="hide-password">Hide</a> </p>
+        <p class="fieldset">
+          <input class="full-width" id="login" type="submit" value="Login">
+        </p>
+      </form>
+    </div>
+    <!-- cd-login -->
+    
+    <div id="cd-signup"> <!-- sign up form -->
+      <form class="cd-form">
+        <p class="fieldset">
+          <label class="image-replace cd-username" for="signup-username">Username</label>
+          <input class="full-width has-padding has-border" id="user" name="ac" type="text" placeholder="Username">
+        </p>
+        <p class="fieldset">
+          <label class="image-replace cd-email" for="signup-email">E-mail</label>
+          <input class="full-width has-padding has-border" id="email" name="email" type="email" placeholder="E-mail">
+        </p>
+        <p class="fieldset">
+          <label class="image-replace cd-password" for="signup-password">Password</label>
+          <input class="full-width has-padding has-border" id="pass" name="pw" type="text"  placeholder="Password">
+          <a href="#0" class="hide-password">Hide</a> </p>
+        <p class="fieldset">
+         <label class="image-replace cd-password" for="signup-repassword">Re-Enter Password</label>
+         <input class="full-width has-padding has-border" id="re_pass" name="re_pw" type="text"  placeholder="Re-Enter Password">
+          <a href="#0" class="hide-password">Hide</a> </p>
+        <p class="fieldset">
+          <input class="full-width has-padding" id="sign_up" type="submit" value="Sign Up">
+        </p>
+      </form> 
+      <!-- <a href="#0" class="cd-close-form">Close</a> --> 
+    </div>
+    <!-- cd-signup --> 
+    
+    <a href="#0" class="cd-close-form">Close</a> </div>
+  <!-- cd-user-modal-container --> 
+</div>
+<!-- cd-user-modal --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/login/main.js"></script> <!-- Gem jQuery -->
+<!--******PopUp Login End********-->
+
+<!-- Top End-->
+
+<script>
+
+$(document).ready(function(){
+
+$(".list-addtofav").click(function(){
+var loggedIn = $('body').hasClass('loggedIn');
+if (loggedIn) { 
+window.location = "favlist.html" ;
+  } 
+  
+   else {
+    alert('Please Login First!');
+   }
+
+});
+
+
+$(".list-addtofav_login").click(function(){
+var loggedIn = $('body').hasClass('loggedIn');
+if (loggedIn) { 
+window.location = "favlist.html" ;
+  } 
+  
+   else {
+    window.location = "favlist.html" ;
+   }
+
+});
+
+
+
+  }); 
+  
+  
+</script>
+
+<div class="method">
+  <section class="address_wrap">
+    <div class="container ">
+      <div class="row">
+        <div class="listing_wrap">
+          <div class="list-img"><img src="img/address.jpg"></div>
+          
+          <!--1-->
+          <div class="listing">
+           <div class="list-address" id="clinic01">
+            <h4>Eastern Street Methadone Clinic</h4>
+              <p>45 Eastern Street, Sai Ying Pun</p>
+            </div>
+            <a href="map01.html">
+            <div class="list-map"></div>
+            </a> <a href="#">
+            <div class="list-addtofav_login"></div>
+            </a>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--2-->
+          <div class="listing">
+            <div class="list-address" id="clinic02">
+              <h4>Violet Peel Methadone Clinic</h4>
+              <p>G/F, 2 O'Brien Road, Wan Chaixw</p>
+            </div>
+            <a href="map02.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--3-->
+          <div class="listing">
+            <div class="list-address" id="clinic03">
+              <h4>Ho Man Tin Methadone Clinic</h4>
+              <p>50 Princess Margaret Road, Ho Man Tin</p>
+            </div>
+            <a href="map03.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--4-->
+          <div class="listing" >
+            <div class="list-address" id="clinic04">
+              <h4>Robert Black Methadone Clinic</h4>
+              <p>Robert Black Health Centre, 600 Prince Edward Road East, San Po Kong</p>
+            </div>
+            <a href="map04.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--5-->
+          <div class="listing">
+            <div class="list-address" id="clinic05">
+              <h4>Sham Shui Po Methadone Clinic</h4>
+              <p>Sham Shui Po Public Dispensary, 137 Yee Kuk Street, Sham Shui Po</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--6-->
+          <div class="listing">
+            <div class="list-address" id="clinic06">
+              <h4>Lady Trench Methadone Clinic</h4>
+              <p>Lady Trench Polyclinic, 213 Sha Tsui Road, Tsuen Wan</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--7-->
+          <div class="listing">
+            <div class="list-address" id="clinic07">
+              <h4>Sham Shui Po Methadone Clinic</h4>
+              <p>Sham Shui Po Public Dispensary, 137 Yee Kuk Street, Sham Shui Po</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--8-->
+          <div class="listing">
+            <div class="list-address" id="clinic08">
+              <h4>Lady Trench Methadone Clinic</h4>
+              <p>Lady Trench Polyclinic, 213 Sha Tsui Road, Tsuen Wan</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--9-->
+          <div class="listing">
+            <div class="list-address" id="clinic09">
+              <h4>Sham Shui Po Methadone Clinic</h4>
+              <p>Sham Shui Po Public Dispensary, 137 Yee Kuk Street, Sham Shui Po</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--10-->
+          <div class="listing">
+            <div class="list-address" id="clinic10">
+              <h4>Lady Trench Methadone Clinic</h4>
+              <p>Lady Trench Polyclinic, 213 Sha Tsui Road, Tsuen Wan</p>
+            </div>
+            <a href="map05.html">
+            <div class="list-map"></div>
+            </a>
+            <div class="list-addtofav"></div>
+            <div class="clearfix"></div>
+          </div>
+          
+        
+
+  
+          <div class="clearfix"></div>
+          
+          
+          
+          
+          <!--********************************************-->
+         
+
+<script>
+var id=$("#my-new-list").attr("value");
+$.getJSON("address.json",{id:id},dates);
+
+function dates(data) {
+    
+  $("#clinic01").html("<h4>"+data[0].clinic_name+"</h4>"+"<p>"+"Address:"+data[0].clinic_address+"</p>"+"<p>"+"Tel:"+data[0].clinic_tel+"</p>"+"<p>"+"Time:"+data[0].clinic_time)+"</p>";
+  
+  $("#clinic02").html("<h4>"+data[1].clinic_name+"</h4>"+"<p>"+"Address:"+data[1].clinic_address+"</p>"+"<p>"+"Tel:"+data[01].clinic_tel+"</p>"+"<p>"+"Time:"+data[1].clinic_time)+"</p>";
+  
+  $("#clinic03").html("<h4>"+data[2].clinic_name+"</h4>"+"<p>"+"Address:"+data[2].clinic_address+"</p>"+"<p>"+"Tel:"+data[02].clinic_tel+"</p>"+"<p>"+"Time:"+data[2].clinic_time)+"</p>";
+  
+  $("#clinic04").html("<h4>"+data[3].clinic_name+"</h4>"+"<p>"+"Address:"+data[3].clinic_address+"</p>"+"<p>"+"Tel:"+data[03].clinic_tel+"</p>"+"<p>"+"Time:"+data[3].clinic_time)+"</p>";
+	
+  $("#clinic05").html("<h4>"+data[4].clinic_name+"</h4>"+"<p>"+"Address:"+data[4].clinic_address+"</p>"+"<p>"+"Tel:"+data[04].clinic_tel+"</p>"+"<p>"+"Time:"+data[4].clinic_time)+"</p>";
+	  
+  $("#clinic06").html("<h4>"+data[5].clinic_name+"</h4>"+"<p>"+"Address:"+data[5].clinic_address+"</p>"+"<p>"+"Tel:"+data[05].clinic_tel+"</p>"+"<p>"+"Time:"+data[5].clinic_time)+"</p>";
+  
+  $("#clinic07").html("<h4>"+data[6].clinic_name+"</h4>"+"<p>"+"Address:"+data[6].clinic_address+"</p>"+"<p>"+"Tel:"+data[06].clinic_tel+"</p>"+"<p>"+"Time:"+data[6].clinic_time)+"</p>";
+	
+  $("#clinic08").html("<h4>"+data[7].clinic_name+"</h4>"+"<p>"+"Address:"+data[7].clinic_address+"</p>"+"<p>"+"Tel:"+data[07].clinic_tel+"</p>"+"<p>"+"Time:"+data[7].clinic_time)+"</p>";
+ 	  
+  $("#clinic09").html("<h4>"+data[8].clinic_name+"</h4>"+"<p>"+"Address:"+data[8].clinic_address+"</p>"+"<p>"+"Tel:"+data[08].clinic_tel+"</p>"+"<p>"+"Time:"+data[8].clinic_time)+"</p>";
+  
+  $("#clinic10").html("<h4>"+data[9].clinic_name+"</h4>"+"<p>"+"Address:"+data[9].clinic_address+"</p>"+"<p>"+"Tel:"+data[09].clinic_tel+"</p>"+"<p>"+"Time:"+data[9].clinic_time)+"</p>"       
+  
+console.debug(results)	 
+}
+
+</script>         </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- jQuery --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script> 
+
+<!-- Plugin JavaScript --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+
+<!-- Theme JavaScript --> 
+<script src="js/creative.min.js"></script> 
+<script>
+(function() {
+  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  $.getJSON( flickerAPI, {
+    tags: "mount rainier",
+    tagmode: "any",
+    format: "json"
+  })
+    .done(function( data ) {
+      $.each( data.items, function( i, item ) {
+        $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+        if ( i === 3 ) {
+          return false;
+        }
+      });
+    });
+})();
+</script>
+</body>
+
+
+
+<script>
+
+	//function to store user name and password
+   function store(theForm) {
+    document.getElementById('welcomeMessage').innerHTML = "";
+    var inputUsername= theForm["name='log_ac'"];
+    var inputPassword= theForm["name='log_pw'"];
+    localStorage.setItem("log_ac", inputUsername.value);
+    localStorage.setItem("log_pw", inputPassword.value);
+    document.getElementById('welcomeMessage').innerHTML = "Welcome " + localStorage.getItem('log_ac') + "!";
+    return false;
+   } // end store()
+   
+   
+	$(function() {
+		$("#login").click(function(e){
+	alert("D");
+			$(function(){
+				var user = {};
+				user.act = "login";
+				user.ac = $("input[name='log_ac']").val();
+				user.pw = $("input[name='log_pw']").val();
+			//	alert(user.ac);
+				$.ajax({
+					url: "http://ms-skyso1127383479.codeanyapp.com:5001/index.html",
+					type: "POST",
+					data: user,
+					success: function (result) {
+						alert(result);
+       			 console.log(result);
+        		if(result.status == 200){
+            		console.log("hope can see here");
+        			}
+    			},
+    			error: function(result){
+        			console.log(result);
+    				}
+				});
+				return false;
+			});
+		});
+	
+		$("#sign_up").click(function(e){
+      alert('hello');
+			var user = {};
+			user.act = "signup";
+			user.ac = $("input[name='ac']").val();
+			user.pw = $("input[name='pw']").val();
+			user.email = $("input[name='email']").val();
+			if(user.ac == ""||user.pw == ""||$("input[name='re_pw']").val()==""||user.email==""){
+				alert("Please input all infomration!");
+			}else if ($("input[name='re_pw']").val() != user.pw){
+				alert("Please input same password at repeat password!");
+			}else {
+				$.ajax( {
+					url: "http://ms-skyso1127383479.codeanyapp.com:5001/index.html",
+					type: "POST",
+					data: user,
+					datatype: "json",
+					success: function (result) {
+						alert(result);
+       			 console.log(result);
+        		if(result.status == 200){
+            		console.log("hope can see here");
+        			}
+    			},
+    			error: function(result){
+        			console.log(result);
+    				}
+				});
+			}
+			return false;
+		});
+	});
+</script>
+
+</html>
